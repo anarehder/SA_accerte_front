@@ -13,6 +13,5 @@ export default function Header() {
 const PageContainer = styled.div`
     height: 30%;
     background-color: black;
-    border: 3px solid white;
     color: white;
 `

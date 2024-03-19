@@ -28,7 +28,11 @@ const PageContainer = styled.div`
     gap: 50px;
     a {
         position: fixed;
-        left: 15%;
-        top: 25px;
+        left: 7%;
+        top: 3.5%;
+    }
+    button {
+        background-color: black;
+        border: 1px solid white;
     }
 `
