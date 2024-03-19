@@ -37,9 +37,10 @@ const GlobalStyle = createGlobalStyle`
     }
     button {
         font-weight: 700;
-        font-size: 14px;
-        line-height: 17px;
+        font-size: 18px;
+        line-height: 20px;
         background-color: #1877f2;
+        padding: 10px 15px;
         color:white;
         cursor:pointer;
     }
