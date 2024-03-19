@@ -4,7 +4,7 @@ export default function HomePage() {
 
     return(
         <PageContainer>
-            MINHA HOMEPAGE
+            MINHA HOMEPAGE - SUPERADEGA
         </PageContainer>
     )
 }
