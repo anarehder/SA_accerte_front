@@ -15,7 +15,8 @@ const GlobalStyle = createGlobalStyle`
         width:100%;
         display: flex;
         justify-content: center;
-        padding: 10px;
+        align-items: center;
+        padding: 15px;
     }
     svg {
         cursor: pointer;
