@@ -30,9 +30,10 @@ const PageContainer = styled.div`
         position: fixed;
         left: 7%;
         top: 3.5%;
+        button {
+            background-color: black;
+            border: 1px solid white;
+        }
     }
-    button {
-        background-color: black;
-        border: 1px solid white;
-    }
+    
 `
