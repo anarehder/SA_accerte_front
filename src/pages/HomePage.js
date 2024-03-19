@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import apiService from '../services/apiAuth';
+import Header from '../components/Header';
 
 export default function HomePage() {
     const [data, setData] = useState([]);
@@ -24,9 +25,7 @@ export default function HomePage() {
 
     return (
         <PageContainer>
-            <h1>
-                MINHA HOMEPAGE - SUPERADEGA
-            </h1>
+            <Header />
             {data ?
                 <h3>{data[0].hostid}</h3>
                 :
