@@ -4,6 +4,11 @@ const GlobalStyle = createGlobalStyle`
     * {
         box-sizing:border-box;
     }
+    body {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
     span {
         font-weight: 700;
     }
@@ -31,7 +36,6 @@ const GlobalStyle = createGlobalStyle`
         color:#9f9f9f;
     }
     button {
-        font-family: 'Lato';
         font-weight: 700;
         font-size: 14px;
         line-height: 17px;
